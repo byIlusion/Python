@@ -1,19 +1,12 @@
-# s = 60
-# m = 60 * 60
-# h = 60 * 60 * 24
-
 sec = int(input('Введите время в секундах: '))
-print(f"Время: {sec}")
 
-# if sec > h:
-#     sec = sec - (sec // h) * h
-#
-# cs = sec % s
-# sec //= cs
-# cm = sec % m
-# sec //= cm
-# ch = sec % h
-#
-# print(f"Время: {ch}:{cm}:{sec}")
+day = 60 * 60 * 24
+if sec > day:
+    sec = sec - (sec // day) * day
 
+min = sec // 60
+sec -= min * 60
+hours = min // 60
+min -= hours * 60
 
+print(f"Время: {hours:02d}:{min:02d}:{sec:02d}")
