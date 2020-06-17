@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9e8c7d-64c2-4a0c-8cb6-0a5685ac0846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.task_05">
     <configuration name="task_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -192,8 +189,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1592419066887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592419066887" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1592163278084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
