@@ -1,15 +1,23 @@
 def division(a, b):
-    # Добавить try except
-    if b == 0:
-        print("Деление на ноль!")
-        return
-    else:
-        return a / b
+    '''Функция деления. Возвращает частное от деления'''
+    try:
+        return float(a) / float(b)
+    except ZeroDivisionError:
+        return "Ошибка! Деление на ноль!"
+    except ValueError:
+        return "Не число!"
 
 while True:
-    digits = input("Введите пример деления (a/b): ").split("/")
-    if len(digits) == 2 and digits[0].isnumeric() and digits[1].isnumeric():
-        print(division(float(digits[0]), float(digits[1])))
+    '''Ввод примера, пока не будет верного ввода'''
+    digits = input("Введите пример деления (a/b) или нажмите Enter: ").replace(',', '.').split("/")
+    if digits == ['']:
         break
-    else:
+    try:
+        '''Обработка если числа не 2'''
+        if len(digits) != 2:
+            raise Exception("Должно быть 2 числа")
+        print(division(digits[0], digits[1]))
+    except ValueError:
         print("Не верный ввод. Попробуйте еще!")
+    except Exception as e:
+        print(e)
