@@ -1,7 +1,8 @@
 from itertools import count, cycle, takewhile
 
+
 # Вариант А
-def my_iterator(start, stop, step = 1):
+def my_iterator(start, stop, step=1):
     """Кастомный итератор с задаваемым диапазоном
 
     start - Стартовое число
@@ -37,5 +38,25 @@ custom_list = [True, False, None]
 my_cycle(custom_list, 7)
 
 
-# Вариант *
-# print(takewhile(lambda x: x < 10, [el for el in count(0)]))
+# Вариант *A
+def my_iter(start, stop, step=1):
+    iterator = count(start, step)
+    el = next(iterator)
+    while stop >= el:
+        el = next(iterator)
+        print(el)
+
+
+my_iter(13, 20)
+
+
+# Вариант *B
+def my_Iter_cycle(itering, count_iterations):
+    iterator = cycle(itering)
+    while count_iterations > 0:
+        el = next(iterator)
+        print(el)
+        count_iterations -= 1
+
+
+my_Iter_cycle('abc', 4)

@@ -5,7 +5,7 @@ rate = 500
 award = 50
 
 
-def output_help(error = None):
+def output_help(error=None):
     if error:
         print(error)
     print(f"Использование: python3 {argv[0]} [ЧАСЫ] [СТАВКА] [ПРЕМИЯ]")
