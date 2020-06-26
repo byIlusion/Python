@@ -51,7 +51,6 @@ numeral_translate_ru = {
     "ten": "десять"
 }
 
-
 try:
     with open("files/text_4.txt") as f:
         for row in f:
