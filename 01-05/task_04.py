@@ -54,9 +54,11 @@ numeral_translate_ru = {
 
 try:
     with open("files/text_4.txt") as f:
-        rows = f.readlines()
-        print(rows)
-        for row in rows:
-            print(f"Входящая строка: {row}\nПреобразованная: {numeral_translate_ru[row.split(' - ')[0].lower()].title()} - {roman(row.split(' - ')[1])}", end="\n\n")
+        for row in f:
+            print(f"Входящая строка: {row.strip()}\nПреобразованная: {numeral_translate_ru[row.split(' - ')[0].lower()].title()} - {roman(row.split(' - ')[1])}", end="\n\n")
 except IOError:
     print("Error!")
+
+print("Задание со звездочкой (преобразование арабских чисел в римские):")
+for num in range(1, 50, 3):
+    print(f"{num}: {roman(num)}")
