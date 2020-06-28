@@ -1,0 +1,71 @@
+{
+    "all_firms": [
+        {
+            "name": "Brooms",
+            "type": "\u041f\u0410\u041e",
+            "revenue": 2500000.0,
+            "costs": 500000.0
+        },
+        {
+            "name": "Tandoor",
+            "type": "\u0410\u041e",
+            "revenue": 1245000.0,
+            "costs": 1880000.0
+        },
+        {
+            "name": "Honey-cake",
+            "type": "\u0417\u0410\u041e",
+            "revenue": 5250000.0,
+            "costs": 455000.0
+        },
+        {
+            "name": "Matrioshka",
+            "type": "OOO",
+            "revenue": 4770000.0,
+            "costs": 511000.0
+        },
+        {
+            "name": "\u0421\u043a\u0430\u0437\u043a\u0430",
+            "type": "\u0418\u041f",
+            "revenue": 10500000.0,
+            "costs": 5000000.0
+        }
+    ],
+    "profit_firms": [
+        {
+            "name": "Brooms",
+            "type": "\u041f\u0410\u041e",
+            "revenue": 2500000.0,
+            "costs": 500000.0
+        },
+        {
+            "name": "Honey-cake",
+            "type": "\u0417\u0410\u041e",
+            "revenue": 5250000.0,
+            "costs": 455000.0
+        },
+        {
+            "name": "Matrioshka",
+            "type": "OOO",
+            "revenue": 4770000.0,
+            "costs": 511000.0
+        },
+        {
+            "name": "\u0421\u043a\u0430\u0437\u043a\u0430",
+            "type": "\u0418\u041f",
+            "revenue": 10500000.0,
+            "costs": 5000000.0
+        }
+    ],
+    "loss_firms": [
+        {
+            "name": "Tandoor",
+            "type": "\u0410\u041e",
+            "revenue": 1245000.0,
+            "costs": 1880000.0
+        }
+    ],
+    "neutral_firms": [],
+    "average_profit": 4138500.0,
+    "average_loss": 635000.0
+}
