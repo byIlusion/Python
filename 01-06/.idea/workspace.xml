@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b2c0546-d86b-4483-b166-cc265555d13e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_01.py" afterDir="false" />
-    </list>
+    <list default="true" id="3b2c0546-d86b-4483-b166-cc265555d13e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,6 +140,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1593448947592">
